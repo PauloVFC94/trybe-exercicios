@@ -5,3 +5,5 @@ O que eu vou aprender na Trybe:
 - Git
 
 Teste
+- surfar na rede
+- andar de paraglyde
