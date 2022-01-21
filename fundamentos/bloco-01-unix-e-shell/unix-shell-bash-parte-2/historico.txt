@@ -1,0 +1,371 @@
+    1  sudo apt install nvidea-driver-460
+    2  sudo apt-update
+    3  sudo apt update
+    4  sudo apt install nvidea-driver-460
+    5  sudo ubuntu-drivers autoinstall
+    6  sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+    7  sudo apt-get update
+    8  sudo apt-get install grub-customizer
+    9  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+   10  sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+   11  sudo apt-get update
+   12  sudo apt install google-chrome-stable
+   13  echo -e '[gentoo-snappy]\n location = /usr/local/portage/gentoo-snappy\n sync-type = git\n sync-uri = https://github.com/zyga/gentoo-snappy.git\n priority = 50\n auto-sync = yes
+   14  \n Categories=Application' | sudo tee /etc/portage/repos.conf/gentoo-snappy.conf
+   15  emaint sync --repo gentoo-snappy
+   16  emerge -av app-emulation/snapd
+   17  wget https://zoom.us/client/latest/zoom_amd64.deb -O zoom.deb
+   18  sudo dpkg -i zoom.deb
+   19  sudo add-apt-repository ppa:appgrid/stable
+   20  sudo apt-get update
+   21  sudo apt-get install appgrid
+   22  sudo apt install gdebi
+   23  sudo apt-get update
+   24  sudo apt-get install libgtk2-perl
+   25  sudo apt-get update
+   26  sudo apt-get install libpango-perl
+   27  sudo apt-get install libpango-perl
+   28  sudo apt-get update
+   29  sudo apt-get install libgl1-mesa-glx
+   30  sudo apt install gdebi
+   31  sudo add-apt-repository universe
+   32  sudo apt-get update
+   33  sudo apt-get install gdebi-core
+   34  sudo apt --fix-broken install
+   35  sudo gdebi iftop_1.0~pre4-4_amd64.deb
+   36  sudo snap install slack --classic
+   37  sudo snap install –classic code
+   38  sudo apt update
+   39  sudo apt install software-properties-common apt-transport-https wget
+   40  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add –
+   41  sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main”
+   42  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
+   43  sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main”
+   44  sudo add-apt-repository “deb [arch=amd64] https://packages.microsoft.com/repos/vscode
+   45  sudo snap install code --classic
+   46  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   47  sudo snap install curl  # version 7.80.0
+   48  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   49  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   50  source ~/.rc
+   51  nvm install 14
+   52  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   53  nvm
+   54  ~/.bashrc
+   55  sudo snap install node --channel=14/stable --classic
+   56  curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+   57  sudo apt update && sudo apt -y upgrade
+   58  sudo apt clean
+   59  sudo apt update
+   60  sudo apt clean
+   61  sudo apt update
+   62  killall gnome-software
+   63  sudo apt install synaptic
+   64  curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+   65  sudo apt-get install -y nodejs
+   66  node -v
+   67  sudo snap install node --channel=14/stable --classic
+   68  snap help refresh
+   69  snap refresh node
+   70  sudo snap install node --channel=14/stable --classic
+   71  node -v
+   72  apt-get remove nodejs --purge
+   73  apt-get remove npm --purge
+   74  sudo apt-get remove npm --purge
+   75  sudo apt-get remove nodejs --purge
+   76  sudo snap install node --channel=14/stable --classic
+   77  sudo snap install node --channel=14/stable --classic
+   78  node -v
+   79  sudo snap install –classic anbox-installer && anbox-installer
+   80  sudo snap install --classic anbox-installer && anbox-installer
+   81  $ snap install --devmode --edge anbox
+   82  snap install --devmode --edge anbox
+   83  sudo apt install android-tools-adb
+   84  adb install Spotify-Premium-8.6.94.306-Mod-TechGara.Com.apk
+   85  sudo snap install spotify
+   86  sudo snap install eversticky
+   87  node
+   88  cd /
+   89  ls
+   90  ls -a
+   91  ls
+   92  cd users
+   93  cd usr
+   94  ls
+   95  back
+   96  cd /
+   97  ls
+   98  cd home
+   99  ls
+  100  cd paulo/
+  101  ls
+  102  cd Música/
+  103  ls
+  104  mkdir Rock
+  105  ls
+  106  cd Rock
+  107  cd .
+  108  cd ..
+  109  cd home
+  110  cd paulo
+  111  cd Música/
+  112  cd Rock
+  113  pwd
+  114  cd ..
+  115  ls
+  116  cd home
+  117  ls
+  118  cd paulo
+  119  ls
+  120  cd Música/
+  121  ls
+  122  cd rock
+  123  cd Rock
+  124  ls
+  125  cp arquivo 1 arquivo 2
+  126  cp arquivo 1.txt arquivo 2.txt
+  127  cp arquivo 1.txt arquivo2
+  128  cp arquivo 1.txt arquivo2.txt
+  129  cat arquivo1
+  130  cat arquivo 1
+  131  ls
+  132  clear
+  133  cd..
+  134  cd ..
+  135  rmdir Rock
+  136  ls
+  137  cd ..
+  138  cd /
+  139  ls
+  140  cd home
+  141  cd paulo
+  142  ls
+  143  cd Música
+  144  ls
+  145  cd Rock
+  146  ls
+  147  cp meusrock.txt meusrock2.txt
+  148  ls
+  149  mv meusrock2.txt /home/paulo/Música
+  150  ls
+  151  cd ..
+  152  ls
+  153  clear
+  154  ls
+  155  rm meusrock2.txt
+  156  ls
+  157  rm Rock
+  158  rmdir Rock
+  159  rmdir rn Rock
+  160  rmdir -rn Rock
+  161  rm -rf Rock
+  162  ls
+  163  mkdir Rock
+  164  ls
+  165  cd ROck
+  166  cd Rock
+  167  ls
+  168  less
+  169  less meuroque.txt
+  170  cat meuroque.txt
+  171  head meuroque.txt
+  172  clear
+  173  head -7 meuroque.txt
+  174  tail -1 meuroque.txt
+  175  tail -2 meuroque.txt
+  176  clear
+  177  less meuroque.txt 
+  178  grep d meuroque.txt
+  179  grep D meuroque.txt
+  180  grep -i D meuroque.txt
+  181  clear
+  182  grep -iv d meuroque.txt
+  183  cat meuroque.txt
+  184  grep -ic d meuroque.txt
+  185  wc meuroque.txt
+  186  wc -w meuroque.txt
+  187  wc -l meuroque.txt
+  188  wc -c meuroque.txt
+  189  ls
+  190  cd ..
+  191  cd /
+  192  ls
+  193  cd home
+  194  cd paulo
+  195  cd Música
+  196  ls
+  197  ls *
+  198  ls ?ock
+  199  cd Rock
+  200  meuroque2.txt
+  201  ls
+  202  arquivo.txt
+  203  man ls
+  204  clear
+  205  whatis cp
+  206  apropos copy
+  207  apropos create files
+  208  apropos create .txt
+  209  clear
+  210  touch meurock.txt
+  211  ls
+  212  cd..
+  213  cd ..
+  214  ls
+  215  cd Documentos
+  216  ls
+  217  cd trybe-exercicios/
+  218  ls
+  219  cd fundamentos/
+  220  ls
+  221  cd bloco-01-unix-e-shell/
+  222  ls
+  223  cd unix-shell-bash-parte-1
+  224  ls
+  225  cd Documentos
+  226  mkdir unix_tests
+  227  ls
+  228  cd unix_tests/
+  229  touch trybe.txt
+  230  ls
+  231  cp trybe.txt trybe_backup.txt
+  232  ls
+  233  apropos rename file
+  234  clear
+  235  mv trybe.txt metrybe.txt
+  236  ls
+  237  mkdir backup
+  238  ls
+  239  mv trybe_backup.txt backup
+  240  ls
+  241  ls backup
+  242  mkdir backup2
+  243  ls
+  244  mv backup/trybe_backup.txt backup2
+  245  ls backup
+  246  ls backup2
+  247  rmdir backup
+  248  ls
+  249  mv backup2 backup
+  250  ls
+  251  pwd
+  252  ls *
+  253  rm -rf backup
+  254  ls
+  255  cleat
+  256  clear
+  257  touch skills.txt
+  258  head -5 skill.txt
+  259  head -5 skills.txt
+  260  tails - 4 skills.txt
+  261  tail -4 skills.txt
+  262  ls
+  263  rm .txt
+  264  ls
+  265  rm grep .txt
+  266  rm *.txt
+  267  ls
+  268  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  269  ls
+  270  less countries.txt
+  271  cat countries.txt
+  272  clear
+  273  ls
+  274  less countries.txt
+  275  grep -i brazil countries.txt
+  276  clear
+  277  touch phrases.txt
+  278  ls
+  279  grep -iv 'fox' phrases.txt 
+  280  wc phrases.txt
+  281  wx -w phrases.txt
+  282  wc -w phrases.txt
+  283  wc -l phrases.txt
+  284  ls
+  285  ls *.txt
+  286  ls -n *.txt
+  287  man ls
+  288  ls -n
+  289  ls *.tbt
+  290  clear
+  291  cd /
+  292  ls
+  293  cd /
+  294  ls
+  295  pwd
+  296  ls -l
+  297  ls -l .
+  298  cd home
+  299  cd paulo
+  300  ls
+  301  pwd
+  302  ls -l .
+  303  clear
+  304  ls
+  305  cd Documentos/
+  306  ls
+  307  cd unix_tests/
+  308  ls
+  309  head -n 5 countries.txt
+  310  tail - n 5 countries.txt
+  311  ls
+  312  cd Documentos/
+  313  mkdir unix_tests
+  314  ls
+  315  cd unix_tests
+  316  touch trybe.txt
+  317  ls
+  318  cp trybe.txt trybe_backup.txt
+  319  ls
+  320  mv trybe.txt arquivo.txt
+  321  ls
+  322  mkdir backup
+  323  mv trybe_backup.txt backup
+  324  mkdir backup2
+  325  mv backup/trybe_backup.txt backup2
+  326  touch morgana.txt
+  327  rm morgana.txt 
+  328  rm backup
+  329  rmdir backup
+  330  mv backup2 backup
+  331  pow
+  332  pmw
+  333  pwm
+  334  clear
+  335  pwm
+  336  clear
+  337  pmw
+  338  pwd
+  339  ls 
+  340  ls *
+  341  rm -rf backup
+  342  clear
+  343  touch skills.txt
+  344  head -5 skills.txt
+  345  tail -5 skills.txt
+  346  clear
+  347  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  348  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  349  clear
+  350  cat countries.txt
+  351  less countries.txt
+  352  grep 'Brazil' countries.txt
+  353  grep -i 'brazil' countries.txt
+  354  clear
+  355  touch phrases.txt
+  356  man grep
+  357  grep -v 'fox' phrases.txt
+  358  wc phrases.txt
+  359  wc -l phrases.txt
+  360  wc -w phrases.txt
+  361  clear
+  362  touch empty.tbt empty.pdf
+  363  ls
+  364  ls *txt
+  365  ls *txt *tbt
+  366  man ls
+  367  tail -5 countries.txt
+  368  man tail
+  369  ls
+  370  history
+  371  history | cat > historico.txt
