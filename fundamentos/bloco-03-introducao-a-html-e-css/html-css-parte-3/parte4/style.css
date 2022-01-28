@@ -1,0 +1,32 @@
+div:hover {
+    color: green;
+    border: 2px solid black;
+    }
+#pri {
+    color:red;
+    background-color: yellow;
+}    
+#sec {
+    color: green;
+    background-color: violet;
+}
+#com {
+    color: green;
+    background-color: red;
+    font-size: 50px;
+    
+}
+#esc {
+    color: black;
+    background-color: forestgreen;
+}
+#cla {
+    color: white;
+    background-color:lime;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#pri #com #cla {
+    font-style:italic ;
+}
