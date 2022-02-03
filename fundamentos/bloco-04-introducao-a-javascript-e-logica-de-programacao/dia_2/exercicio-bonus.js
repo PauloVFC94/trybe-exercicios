@@ -22,11 +22,14 @@ for (let index = 1; index < array2.length; index += 1) {
 } // decrescente
 console.log(array2);
 
-let vetor = [10, 20, 30, 40, 50, 60, 70];
+let vetor = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let vetorMulti = [];
-for (let index = 1; index < vetor.length; index += 1) {
-  for (let index2 = 0; index2 < index; index2 += 1) {
-    vetorMulti[index2] = vetor[index] * vetor[index2];
+for (let index = 1; index <= vetor.length; index += 1) {
+  if (index < vetor.length){
+    vetorMulti.push(vetor[index] * vetor[index - 1]);
   }
-}
+  else{
+        vetorMulti.push(vetor[index-1] * 2);
+      }
+    }
 console.log(vetorMulti); // multiplicação do primeiro numero com o próximo
