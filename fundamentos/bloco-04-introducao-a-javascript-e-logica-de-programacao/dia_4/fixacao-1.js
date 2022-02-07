@@ -1,3 +1,4 @@
+//objetos
 let player = {
     name: "Marta",
     lastName: "Silva",
