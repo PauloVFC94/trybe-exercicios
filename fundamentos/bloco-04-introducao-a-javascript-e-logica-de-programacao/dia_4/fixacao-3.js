@@ -14,3 +14,39 @@ function jokenpo (jogadaA,jogadaB){
 jokenpo("tesoura","pedra");//O jogador A jogou tesoura. O jogador B jogou pedra. O jogador B venceu.
 jokenpo("pedra","pedra");//O jogador A jogou pedra. O jogador B jogou pedra. A partida empatou.
 jokenpo("tesoura","papel");//O jogador A jogou tesoura. O jogador B jogou papel. O jogador A venceu.
+
+//função soma //
+function soma(numeroA,numeroB){
+let resultado = numeroA + numeroB;
+console.log("A soma de "+numeroA+ " e "+numeroB+" é "+resultado+".");
+}
+soma(150,332);//A soma de 150 e 332 é 482.
+
+//função subtração//
+function subtracao(numeroA,numeroB){
+    let resultado = numeroA - numeroB;
+    console.log("A subtracao de "+numeroA+ " e "+numeroB+" é "+resultado+".");
+    }
+subtracao(330,522);//A subtracao de 330 e 522 é -192.
+
+//função multiplicação //
+function multiplicacao(numeroA,numeroB){
+    let resultado = numeroA * numeroB;
+    console.log("A multiplicação de "+numeroA+ " e "+numeroB+" é "+resultado+".");
+    }
+multiplicacao(110,32);//A multiplicação de 110 e 32 é 3520.
+
+//função divisão//
+function divisao(numeroA,numeroB){
+    let resultado = numeroA / numeroB;
+    console.log("A divisão de "+numeroA+ " e "+numeroB+" é "+resultado+".");
+    }
+divisao(3333,5); //A divisão de 3333 e 5 é 666.6.
+
+//função módulo//
+function modulo(numeroA,numeroB){
+    let resultado = numeroA % numeroB;
+    console.log("O resto da divisão de "+numeroA+ " e "+numeroB+" é "+resultado+".");
+    }
+modulo(3333,5); //O resto da divisão de 3333 e 5 é 3.
+
