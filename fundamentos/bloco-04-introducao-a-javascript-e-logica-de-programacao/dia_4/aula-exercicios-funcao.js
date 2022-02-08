@@ -66,3 +66,22 @@ function maiorNome(array) {
 }
 let teste2 = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"];
 maiorNome(teste2); // Fernanda
+
+//função termo mais repetido
+function maisRepetido(array){
+    let contaRepeticao =0;
+    let maisRepetido =0;
+    for (i=0;i<array.length;i+=1){
+        for (j=1; j<array.length;j+=1){
+            if(array[i]===array[j]){
+                contaRepeticao+=1;
+            }
+            if(contaRepeticao>maisRepetido){
+                maisRepetido=contaRepeticao;
+                return array[i];
+            }
+        }
+    }
+    }
+let teste3 = [2, 3, 2, 5, 8, 2, 3]; 
+console.log(maisRepetido(teste3)); //2
