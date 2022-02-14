@@ -21,19 +21,32 @@ function escreverDias(){
     for (let i=0;i<dezDaysList.length;i+=1){
     let dias = dezDaysList[i];
     let diasItem = document.createElement('li');
-    diasItem.innerHTML = dias;
-    diasItem.className="day";
+    diasItem.innerText = dias;
+    diasItem.className="day"
     diasLista.appendChild(diasItem);
-}
-for (let i=0;i<dezDaysList.length;i+=1){
-if (diasItem[index].innerHTML===24||diasItem[index].innerHTML===25||diasItem[index].innerHTML===31){
-    diasItem[index].classList.add("holiday");
-}
-else if (diasItem[index].innerHTML===4||diasItem[index].innerHTML===11||diasItem[index].innerHTML===18||diasItem[index].innerHTML===25){
-    diasItem[index].classList.add("friday");
-
+    if (dezDaysList[i] === 24||dezDaysList[i] ===25||dezDaysList[i] ===31){
+      if(dezDaysList[i] === 25){
+        diasItem.className += " friday";
+      }  
+      diasItem.className += " holiday";
+        console.log(diasItem[i]);
     }
+    else if (dezDaysList[i] ===4||dezDaysList[i] ===11||dezDaysList[i] ===18||dezDaysList[i] ===25){
+        diasItem.className += " friday";
+        console.log(diasItem[i]);
+}
+else{
+  diasItem.className="day";
 }
 }
-
+}
 escreverDias();
+
+
+
+
+
+    
+
+
+
