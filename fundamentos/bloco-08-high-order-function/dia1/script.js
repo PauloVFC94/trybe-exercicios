@@ -61,3 +61,4 @@ const confereProva = (gabarito, respostas, callback) => {
 const respostasProva = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const respostaAluno = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 console.log(confereProva(respostasProva, respostaAluno, corrigeProva));
+console.log("Tamarindo");
